@@ -1,0 +1,9 @@
+{
+    "name": "JavaScript",
+    "symbol": "JS",
+    "image": "1.png",
+    "properties": {
+        "files": [{ "url": "1.png", "type": "image/png" }],
+        "creators": [{ "address": "GiziCbo5pph5JDFw3X1TmEsbWUFBrKv7HT1T5e8Qk3LA", "share": 100 }]
+    }
+}

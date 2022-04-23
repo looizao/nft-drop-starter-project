@@ -1,0 +1,9 @@
+{
+    "name": "Rust",
+    "symbol": "RU",
+    "image": "2.png",
+    "properties": {
+        "files": [{ "url": "2.png", "type": "image/png" }],
+        "creators": [{ "address": "GiziCbo5pph5JDFw3X1TmEsbWUFBrKv7HT1T5e8Qk3LA", "share": 100 }]
+    }
+}
