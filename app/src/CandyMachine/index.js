@@ -13,6 +13,7 @@ import {
   getNetworkToken,
   CIVIC
 } from './helpers';
+import { useEffect } from 'react/cjs/react.production.min';
 
 const { SystemProgram } = web3;
 const opts = {
@@ -20,6 +21,12 @@ const opts = {
 };
 
 const CandyMachine = ({ walletAddress }) => {
+
+  useEffect(() => {
+    getCandyMachineState()
+  }, []);
+
+  // const getProvider = () 
 
   const getCandyMachineCreator = async (candyMachine) => {
     const candyMachineID = new PublicKey(candyMachine);
